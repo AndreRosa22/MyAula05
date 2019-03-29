@@ -55,6 +55,9 @@ namespace MyFirstMethod
                 Console.WriteLine(i);
             }
         }
+        /// <summary>
+        /// this method crashes the program
+        /// </summary>
         static void VouCrachar()
         {
             VouCrachar();
