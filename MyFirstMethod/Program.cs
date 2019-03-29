@@ -18,6 +18,8 @@ namespace MyFirstMethod
             CountToN(10);
             Console.WriteLine("----CounToN2FromN2----");
             CountToN(2,8);
+            //VouCrachar();
+            // Process was terminated due to StackOverflowException
             Console.ReadKey();
         }
         /// <summary>
@@ -52,6 +54,10 @@ namespace MyFirstMethod
             {
                 Console.WriteLine(i);
             }
+        }
+        static void VouCrachar()
+        {
+            VouCrachar();
         }
 
     }
