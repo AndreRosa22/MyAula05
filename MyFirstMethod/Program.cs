@@ -16,6 +16,8 @@ namespace MyFirstMethod
             CountToN(10);
             Console.WriteLine("----CounToN----");
             CountToN(10);
+            Console.WriteLine("----CounToN2FromN2----");
+            CountToN(2,8);
             Console.ReadKey();
         }
         /// <summary>
@@ -39,7 +41,13 @@ namespace MyFirstMethod
                 Console.WriteLine(i);
             }
         }
-
+        static void CountToN(int n1, int n2)
+        {
+            for (int i = n1; i <= n2; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
 
     }
 }
