@@ -41,6 +41,11 @@ namespace MyFirstMethod
                 Console.WriteLine(i);
             }
         }
+        /// <summary>
+        /// Method for counting from n1 to n2
+        /// </summary>
+        /// <param name="n1"></param>
+        /// <param name="n2"></param>
         static void CountToN(int n1, int n2)
         {
             for (int i = n1; i <= n2; i++)
